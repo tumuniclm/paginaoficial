@@ -1,0 +1,42 @@
+.containerSN{
+    margin: 1.5em;
+    font-family: "Open Sans",sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #5F656F;
+}
+
+
+.containerSN h1{
+    font-size: 1em;
+    color: #5F656F;
+}
+
+.containerSN h2{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: "Rubik",sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #02245B;
+}
+
+.containerSN section{
+   
+    padding:3em 1em!important;
+    border-radius: 5px;
+    background-color: #06C;
+    margin-bottom:2em ;
+}
+
+.containerSN section h1{
+    font-family: 'Blacksword', sans-serif; 
+    text-align: center;
+    font-size: 1.5em;
+    color: #FFF !important;
+}
+
+.politicaMunicipal h2{
+    margin-bottom: 1em;
+}

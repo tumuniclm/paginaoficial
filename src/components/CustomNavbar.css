@@ -1,0 +1,71 @@
+  .navbar{
+    padding: 0em!important;
+    margin: 0em!important;
+  }
+
+  .logo-text-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .text-container {
+    padding: 1em;
+    flex-grow: 1; /* Hace que el contenedor del texto ocupe todo el espacio disponible */
+    margin: 0;
+  }
+  
+  .text-container h1 {
+    color:#fff!important; 
+    font-family: 'Blacksword', sans-serif; 
+    font-size: 0.8em!important;
+    margin: 0!important; /* Elimina el margen predeterminado del encabezado h1 */
+  }
+
+.container{
+    height: 70%;
+    padding-left: 0!important; 
+    background:#0066CC!important;
+}
+
+.avanza{
+  position: relative;
+  top: 3em;
+  color: #06C !important;
+  font-family: 'Blacksword', sans-serif;
+  font-size: 2em !important;
+}
+  
+.logoGob2 {
+  
+  position: fixed;
+  bottom: 150px;
+  width: 300px; /* Ajusta el tamaño del logo según tus necesidades */
+  height: auto; /* Mantiene la proporción del logo */
+  left: 50%;
+  transform: translateX(-50%);
+}
+.text-container h1 span{
+  margin-top: 1em;/* AQUI ME QUEDE*************************/
+  margin-left: 2em;
+}
+
+
+@media screen and (min-width: 768px) {
+  .bg-body-tertiary {
+    
+  }
+
+  .logo-text-container {
+    font-size: 1.8em;
+  }
+  
+  .avanza{
+   display: none;
+  }
+  .logoGob2 {
+    display: none;
+  }
+
+
+}

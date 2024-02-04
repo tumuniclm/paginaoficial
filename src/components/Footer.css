@@ -1,0 +1,36 @@
+.footer {
+    background-color: #06C!important; /* Azul Pavo */
+    color: #FFF; /* Texto blanco */
+    margin: 0!important;
+    padding: 3em!important;
+  }
+
+  .footer.row{
+    padding: 5em!important; /* Espaciado interno */
+  }
+
+  .footer .row hr {
+    margin-left: auto; /* Centra el hr horizontalmente */
+    margin-right: auto; /* Centra el hr horizontalmente */
+  }
+  
+  .footer h3 {
+    color: #FFF; /* Texto blanco para los títulos */
+  }
+  
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1em;
+  }
+  
+  .social-icons li {
+    margin-right: 1em;
+  }
+  
+  .social-icons a {
+    color: #FFF; /* Iconos de redes sociales en blanco */
+  }
+  
+  
